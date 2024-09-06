@@ -2,7 +2,7 @@
   "expo": {
     "name": "my-app",
     "slug": "boilerplate",
-    "owner": "wataru",
+    "owner": "zendwise",
     "privacy": "unlisted",
     "version": "1.0.0",
     "platforms": ["ios", "android", "web"],
