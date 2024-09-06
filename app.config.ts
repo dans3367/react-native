@@ -7,7 +7,7 @@ export default ({ config }: ConfigContext): ExpoConfig => {
     name: process.env.EXPO_PUBLIC_NAME ?? 'my-app',
     ios: {
       ...config.ios,
-      bundleIdentifier: process.env.EXPO_PUBLIC_IOS_BUNDLE_IDENTIFIER,
+      bundleIdentifier: process.env.EXPO_PUBLIC_IOS_BUNDLE_IDENTIFIER ?? 'com.zendwise.my-app',
       buildNumber: '1',
     },
     android: {
