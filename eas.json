@@ -7,7 +7,7 @@
       },
       "ios": {
         "image": "latest",
-        "resourceClass": "m1-medium",
+        "resourceClass": "m-medium",
         "env": {
           "PLATFORM": "ios"
         }
