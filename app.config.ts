@@ -4,7 +4,7 @@ export default ({ config }: ConfigContext): ExpoConfig => {
   const envConfig: ExpoConfig = {
     ...config,
     slug: process.env.EXPO_PUBLIC_SLUG ?? 'boilerplate',
-    name: process.env.EXPO_PUBLIC_NAME ?? '',
+    name: process.env.EXPO_PUBLIC_NAME ?? 'my-app',
     ios: {
       ...config.ios,
       bundleIdentifier: process.env.EXPO_PUBLIC_IOS_BUNDLE_IDENTIFIER,
