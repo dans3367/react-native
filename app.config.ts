@@ -20,7 +20,7 @@ export default ({ config }: ConfigContext): ExpoConfig => {
     },
     extra: {
       ...config.extra,
-      eas: { projectId: process.env.EXPO_PUBLIC_PROJECT_ID },
+      eas: { projectId: process.env.EXPO_PUBLIC_PROJECT_ID ?? 'd7e41116-6a87-4e3b-91bb-df077df4abdb'},
       ENV: process.env.EXPO_PUBLIC_ENV,
       API_URL: process.env.EXPO_PUBLIC_API_URL,
     },
